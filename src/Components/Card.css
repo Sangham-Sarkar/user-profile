@@ -1,0 +1,68 @@
+.card-container{
+    width: 350px;
+    box-shadow: 0px 0px 15px -5px;
+    background: url('../images/bg-pattern-card.svg') no-repeat top,
+    white;
+    border-radius: 15px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 5.5rem;
+}
+
+.image-container img{
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.bio{
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.userName{
+    font-weight: 700;
+}
+
+.age{
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
+
+.locality{
+    padding: 0.8rem 0rem 2rem 0rem;
+    color: hsl(0, 0%, 59%);
+}
+
+.Social{
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 2rem;
+}
+
+.Social div{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Social div p:nth-child(2){
+    color: hsl(0, 0%, 59%);
+    font-size: small;
+    padding-top: 0.5rem;
+}
+
+.follower, .likes , .photos{
+    font-weight: 700;
+} 

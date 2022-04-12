@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+*{
+    margin: 0;
+}
+
+.App{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./images/bg-pattern-top.svg) no-repeat bottom 10rem left -30rem,
+                url(./images/bg-pattern-bottom.svg) no-repeat top 20rem right -20rem,
+                #20a4ac;
+}
