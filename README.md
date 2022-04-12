@@ -25,7 +25,7 @@ simple card component built using react
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: (https://github.com/Sangham-Sarkar/user-profile)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
